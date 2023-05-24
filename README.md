@@ -3,8 +3,7 @@
 <p align="center">
   <a href="https://opensource.org/licenses/Apache-2.0"><img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg"/></a>
   <a href="https://android-arsenal.com/api?level=21"><img alt="API" src="https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat"/></a>
-  <a href="https://github.com/skydoves/chatgpt-android/actions/workflows/android.yml"><img alt="Build Status" src="https://github.com/skydoves/chatgpt-android/actions/workflows/android.yml/badge.svg"/></a>
-  <a href="https://github.com/skydoves"><img alt="Profile" src="https://skydoves.github.io/badges/skydoves.svg"/></a>
+  <a href="https://github.com/gayanMatch/Android-ChatGPT/actions/workflows/android.yml"><img alt="Build Status" src="https://github.com/gayanMatch/Android-ChatGPT/actions/workflows/android.yml/badge.svg"/></a>
 </p>
 
 **ChatGPT Android** demonstrates [OpenAI's ChatGPT](https://chat.openai.com/chat) on Android with [Stream Chat SDK for Compose](https://getstream.io/chat/sdk/compose?utm_source=Github&utm_medium=Github_Repo_Content_Ad&utm_content=Developer&utm_campaign=Github_Dec2022_Jaewoong_ChatGPT&utm_term=DevRelOss).
@@ -41,7 +40,7 @@ If you’re interested in adding powerful In-App Messaging to your app, check ou
 - [Stream Chat Compose UI Componenets Guidelines](https://getstream.io/chat/docs/sdk/android/compose/overview/)
 
 ## 📲 Download APK
-Go to the [Releases](https://github.com/skydoves/chatgpt-android/releases) to download the latest APK.
+Go to the [Releases](https://github.com/gayanMatch/Android-ChatGPT/releases) to download the latest APK.
 
 >**Note**: This app is using unofficial APIs, so normally it takes 10~15 seconds to get the entire response and the app might not work as your expected anytime.
 
@@ -123,13 +122,6 @@ STREAM_CHAT_SDK=..
   - Navigation: For navigating screens and [Hilt Navigation Compose](https://developer.android.com/jetpack/compose/libraries#hilt) for injecting dependencies.
   - Room: Constructs Database by providing an abstraction layer over SQLite to allow fluent database access.
   - [Hilt](https://dagger.dev/hilt/): Dependency Injection.
-- [Landscapist Glide](https://github.com/skydoves/landscapist#glide), [animation](https://github.com/skydoves/landscapist#animation), [placeholder](https://github.com/skydoves/landscapist#placeholder): Jetpack Compose image loading library that fetches and displays network images with Glide, Coil, and Fresco.
-- [Retrofit2 & OkHttp3](https://github.com/square/retrofit): Construct the REST APIs and paging network data.
-- [Sandwich](https://github.com/skydoves/Sandwich): Construct a lightweight and modern response interface to handle network payload for Android.
-- [Moshi](https://github.com/square/moshi/): A modern JSON library for Kotlin and Java.
-- [ksp](https://github.com/google/ksp): Kotlin Symbol Processing API.
-- [Balloon](https://github.com/skydoves/balloon): Modernized and sophisticated tooltips, fully customizable with an arrow and animations for Android.
-- [viewmodel-lifecycle](https://github.com/skydoves/viewmodel-lifecycle): ViewModel Lifecycle allows you to track and observe Jetpack's ViewModel lifecycle changes.
 - [StreamLog](https://github.com/GetStream/stream-log): A lightweight and extensible logger library for Kotlin and Android.
 - Baseline Profiles: To improve app performance by including a list of classes and methods specifications in your APK that can be used by Android Runtime.
 
@@ -177,21 +169,17 @@ For more information about the overall architecture, check out **[Build a Real-T
 - **Decentralized focusing**: Each developer team can assign their dedicated module and they can focus on their own modules.
 
 
-## 💯 MAD Score
-
-![summary](https://user-images.githubusercontent.com/24237865/158918011-bc766482-ec83-47dd-9237-d8a226cab263.png)
-
 ## 🤝 Contribution
 
-Most of the features are not completed except the chat feature, so anyone can contribute and improve this project following the [Contributing Guideline](https://github.com/skydoves/chatgpt-android/blob/main/CONTRIBUTING.md).
+Most of the features are not completed except the chat feature, so anyone can contribute and improve this project following the [Contributing Guideline](https://github.com/gayanMatch/Android-ChatGPT/blob/main/CONTRIBUTING.md).
 
 ## Find this repository useful? 💙
-Support it by joining __[stargazers](https://github.com/skydoves/chatgpt-android/stargazers)__ for this repository. :star: <br>
-Also, __[follow me](https://github.com/skydoves)__ on GitHub for my next creations! 🤩
+Support it by joining __[stargazers](https://github.com/gayanMatch/Android-ChatGPT/stargazers)__ for this repository. :star: <br>
+Also, __[follow me](https://github.com/gayanMatch)__ on GitHub for my next creations! 🤩
 
 # License
 ```xml
-Designed and developed by 2022 skydoves (Jaewoong Eum)
+Designed and developed by 2022 gayanMatch (Jaewoong Eum)
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
